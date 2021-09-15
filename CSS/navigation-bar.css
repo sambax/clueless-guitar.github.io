@@ -1,0 +1,59 @@
+* {
+
+/*Ensures that the top of the navigation pane is in the upper-right
+of the Web-page.*/
+
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.nav-wrapper .nav-bar {
+  /*Most important part of making the navigation pane:*/
+  position: fixed;
+  width: 150px;
+  /*Span the entire height of the open Web-page*/
+  height: 100%;
+  background-color: black;
+  list-style: none;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.nav-bar li {
+  padding-top: 10px;
+}
+
+.nav-bar a, .nav-bar:visited {
+  /*Customization on appearance for the links for the navigation bar*/
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar li:hover {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.main-content {
+  padding-top: 20px;
+  padding-left: 170px;
+  padding-right: 20px;
+}
+
+.portrait {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.main-content h2 {
+  padding-top: 20px;
+}
+
+.main-content p {
+  padding-top: 10px;
+}
